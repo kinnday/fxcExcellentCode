@@ -9,9 +9,9 @@ public class StaticFactoryClient {
 
 
     public static void main(String[] args) {
-//        peterdo();
+        peterdo();
         jamesdo();
-//        lisondo();
+        lisondo();
     }
 
     //Peter自己吃水果

@@ -9,6 +9,7 @@ import java.util.List;
 public class DistrictNode extends Node{
     private List<Node> children = new ArrayList<>();
 
+//    组合模式-包含层级关系
     public DistrictNode(String name) {
         super(name);
     }

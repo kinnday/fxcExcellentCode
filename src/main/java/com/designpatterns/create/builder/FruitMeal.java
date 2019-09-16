@@ -6,6 +6,7 @@ import com.designpatterns.entity.fruit.Banana;
 import com.designpatterns.entity.fruit.Orange;
 
 //创建一个水果套餐Meal类
+// 复杂对象，包含多个类变量，需要逐个进行set
 public class FruitMeal {
 
     private Apple apple;//苹果--价格

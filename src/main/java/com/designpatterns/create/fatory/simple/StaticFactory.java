@@ -13,6 +13,7 @@ public class StaticFactory {
     public static final int TYPE_ORANGE = 2;//桔子
     public static final int TYPE_BANANA = 3;//香蕉
 
+//    一个工厂多个实现类，不满足开闭原则
     public static Fruit getFruit(int type){
         if(TYPE_APPLE == type){
             return new Apple();

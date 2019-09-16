@@ -14,7 +14,7 @@ public class FruitMealController {//收银台---导演类
         builder.buildApple(120);//创建苹果设置价格
         builder.buildBanana(80);//创建香蕉设置香蕉价格
         builder.buildOrange(50);//创建桔子设置价格
-
+//      返回建造完成的实例， build();
         FruitMeal fruitMeal = builder.getFruitMeal();
 
 

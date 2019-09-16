@@ -9,6 +9,7 @@ public class Sheep implements Cloneable {
     private String sex;
     private Admin admin;
 
+//    直接以 Admin传入
     public Sheep(int age, String sex, Admin admin) {
         super();
         this.age = age;

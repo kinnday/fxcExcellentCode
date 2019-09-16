@@ -13,7 +13,7 @@ public class SessionCount {
     //获取唯一可用的对象
     //懒汉式
     public static SessionCount getInstance(){
-        if (instance == null){//双重校验锁
+        if (instance == null){// 双重校验锁,一次加锁就行
             synchronized (SessionCount.class){
                 if (instance == null){
                     instance = new SessionCount();

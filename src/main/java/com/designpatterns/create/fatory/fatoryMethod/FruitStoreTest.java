@@ -18,6 +18,7 @@ public class FruitStoreTest {
 
     /**
      * 邮寄打包
+     * 一种类型一个工厂，继承统一接口，满足开闭原则
      */
     public static void pack(){
         //初始化苹果工厂

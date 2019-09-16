@@ -9,6 +9,7 @@ import java.util.List;
 /**
  * 模板方法模式
  * 购物车费用结算过程
+ * fxc-抽象类-定义基本流程，部分方法延迟到子类实现
  */
 public abstract class ShoppingCart {
     private Discount discount;

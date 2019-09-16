@@ -2,6 +2,8 @@ package com.designpatterns.structure.decorator;
 
 import com.designpatterns.entity.Bag;
 
+//装饰器-功能增强
+// mybatis- cache模块
 public class CheckedBagDecorator extends BagDecorator {
     public CheckedBagDecorator(Bag bag) {
         super(bag);

@@ -9,6 +9,7 @@ import com.designpatterns.entity.bag.OrangeBag;
 public class OrangeBagAdapter extends OrangeBag {
     private AppleBag appleBag;
 
+//    经典使用：mybatis-log模块
     public OrangeBagAdapter(AppleBag appleBag){
         this.appleBag = appleBag;
     }
