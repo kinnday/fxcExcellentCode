@@ -2,6 +2,7 @@ package com.designpatterns.action.observer.jdk;
 
 import java.util.Observable;
 
+// 事件监听-继承 Observable 抽象类
 public class Mango extends Observable {
     private String name;
 

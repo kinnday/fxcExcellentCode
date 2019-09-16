@@ -11,6 +11,7 @@ public interface Fruit {
 
     void draw();
 
+//  访问者模式，增加accept方法
     int accept(Visit visit);
 
 }

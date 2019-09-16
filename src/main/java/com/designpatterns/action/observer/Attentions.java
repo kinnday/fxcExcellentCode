@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Attentions {
-    //关注客户列表
+    //关注客户列表-多线程下不安全，建议使用JDK自带的。
     protected List<Observer> observers = new ArrayList();
 
     //关注顾客

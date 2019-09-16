@@ -31,6 +31,7 @@ public class Orange implements Fruit {
         System.out.print("砂糖桔");
     }
 
+//    fxc-访问者模式-双重委派，这里的this指代 Orange对象，而不是 Fruit.
     public int accept(Visit visit){
         return visit.sell(this);
     }

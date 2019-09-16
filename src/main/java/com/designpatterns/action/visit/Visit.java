@@ -5,6 +5,7 @@ import com.designpatterns.entity.fruit.Apple;
 import com.designpatterns.entity.fruit.Banana;
 import com.designpatterns.entity.fruit.Orange;
 
+// 访问者模式： 使用双重委派，弥补多态中方法重载时静态化不足的问题。
 public class Visit {
 
 	//苹果计价
