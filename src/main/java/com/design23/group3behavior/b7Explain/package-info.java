@@ -15,5 +15,5 @@ package com.design23.group3behavior.b7Explain;
 
 
 //使用的场景
-//● 重复发生的问题可以使用解释器模式 
+//● 重复发生的问题可以使用解释器模式
 //● 一个简单语法需要解释的场景
